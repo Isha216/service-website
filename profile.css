@@ -1,0 +1,271 @@
+/* RESET CSS STARTS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body font size */
+body {
+  font-size: 1rem;
+}
+
+/* Remove list styles on ul, ol elements */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Reset anchor text decoration */
+a {
+  text-decoration: none !important;
+}
+
+/* RESET CSS ENDS */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Custom CSS styles for the worker profile page */
+/* {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+/* first image inside profile page  */
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.zoom-image {
+  width: 100%;
+  height: auto;
+  transition: transform .2s ease;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.zoom-image:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for profile name */
+.profile-name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styling for profile header */
+.profile-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Styling for profile skills */
+.profile-skills {
+  margin-bottom: 30px;
+}
+
+/* Styling for profile description */
+.profile-description {
+  margin-bottom: 30px;
+}
+
+/* Styling for profile contact */
+.profile-contact {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-contact li {
+  margin-bottom: 10px;
+}
+
+.profile-contact strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Custom CSS styles for the mobile carousel */
+.carousel-mobile {
+  overflow-x: hidden;
+}
+
+.carousel-mobile .carousel-inner {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-mobile .carousel-item {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.work-timings {
+  margin-top: 20px;
+}
+
+.work-timings-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.work-timings-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-timings-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.time {
+  color:#777;
+}
+
+/* Custom CSS styles for the social icons */
+.social-icons {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.social-icon {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all .3s;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon:hover {
+transform: translateY(-5px);
+}
+
+.social-icon svg {
+width: 60%;
+height: 60%;
+fill: #007bff;
+}
+
+/* Custom CSS styles for the skills badges */
+.skill-badges {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+
+.skill-badge {
+margin: 5px;
+padding: 5px 10px;
+background-color: #007bff;
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+border-radius: 5px;
+text-transform: uppercase;
+transition: all .3s;
+cursor: pointer;
+}
+
+.skill-badge:hover {
+transform: scale(1.1);
+}
+
+/* Media query for desktop view */
+@media only screen and (min-width: 768px) {
+/* Button alignment and spacing */
+.feedback-button,
+.report-button, .profile-contact {
+  display:flex;
+margin-right: 20px;
+margin-top: 0px;
+padding: 10px 20px;
+border-radius: 3px;
+cursor: pointer;
+}
+ /* Social icon size for desktop */
+.social-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.social-icon svg {
+  width: 70%;
+  height: 70%;
+}
+
+/* Skill badge size and spacing for desktop */
+.skill-badge {
+  margin: 10px;
+  padding: 8px 14px;
+  font-size: 16px;
+}
+}

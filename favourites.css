@@ -1,0 +1,128 @@
+/* Updated colors for the webpage */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Header bar container */
+.header {
+    background-color: #FFC107;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.header i{
+    font-size: 30px;
+}
+
+/* Back arrow icon */
+.back-arrow {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Heading title */
+.title {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Three-line icon */
+.three-line-icon {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    margin-bottom: 10px;
+    max-height: 200px; /* set the desired fixed height for the card */
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.service-card-body {
+    padding: 10px;
+}
+/* 
+.card .row.no-gutters {
+    margin-left: -15px; /* remove the left margin of the row with no gutters */
+   /* margin-right: -15px; 
+
+.card .col-md-3,
+.card .col-md-9 {
+    padding-left: 15px*/ /* add padding to the columns to compensate for the removed margins */  /*
+    padding-right: 15px; /* add padding to the columns to compensate for the removed margins 
+} */
+
+.logo {
+    width: 100%; /* Set width to 100% to fill the container */
+    height: 150px; /* Set desired height for the logo image */
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+h5.card-title {
+    font-size: 26px; /* Increased font size for mobile view */
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+
+.card-text {
+    min-height: 75px;
+    overflow: hidden;
+}
+
+p.card-text {
+    font-size: 14px; /* Increased font size for mobile view */
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#viewProfileBtn {
+    background-color: #FFC107; /* Updated background color for favorite list */
+    border-color: #FFC107; 
+    color: #fff;
+}
+
+.viewProfileBtn:hover {
+    background-color: #ecb50e;  
+    border-color: #ecb50e;  
+; 
+}
